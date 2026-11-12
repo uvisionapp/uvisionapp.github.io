@@ -115,6 +115,7 @@ h1 { margin-bottom: 22px; font-size: clamp(48px, 7.3vw, 84px); line-height: .99;
 .inner-page { min-height: calc(100vh - 182px); padding-block: 70px 100px; }
 .page-intro { max-width: 760px; margin-bottom: 46px; }
 .page-intro h1 { font-size: clamp(48px, 7vw, 72px); }
+.page-intro h1.privacy-title { max-width: 100%; font-size: clamp(26px, 6.5vw, 56px); line-height: 1.12; letter-spacing: -.04em; overflow-wrap: anywhere; text-wrap: balance; }
 .contact-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; max-width: 900px; }
 .contact-card { position: relative; min-height: 230px; padding: 28px; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end; gap: 7px; overflow: hidden; border: 1px solid var(--line); border-radius: 28px; background: var(--surface); text-decoration: none; transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease; }
 .contact-card:hover { transform: translateY(-4px); border-color: color-mix(in srgb, var(--teal) 45%, var(--line)); box-shadow: var(--shadow); }
